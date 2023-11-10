@@ -1,0 +1,21 @@
+h3{
+	text-align: center;
+}
+table{
+	padding-right: 0%;
+}
+.table1{
+	text-align: center;
+	font-weight: bold;
+}
+.button{
+	text-align: center;
+}
+.button1{
+	margin-left: 50px;
+	width: 6.25rem;
+}
+.button2{
+	margin-right: 50px;
+	width: 6.25rem;
+}

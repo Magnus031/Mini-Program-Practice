@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Html Form</title>
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+	</head>
+	<body>
+			<a href="https://www.zju.edu.cn/"><caption><h3>注册信息</h3></caption></a>
+			<form name="input" action="www.baidu.com" onsubmit="return check()" method="get" >
+				<table width="600" align="center" border="1">
+					<tr>
+						<th rowspan="5" >基本信息</th>
+						<td>用户姓名：</td><td colspan="2"><input type="text" name="userName" style="width: 97%;" required="required" oninput="check()" onchange="check()"></td>
+					</tr>
+					<tr>
+						<td>真实姓名：</td><td colspan="2"><input type="text" name="userrealName" style="width: 97%;" required="required" oninput="check()" onchange="check()"></td>
+					</tr>
+					<tr>
+						<td style="word-spacing:27px;">密   码：</td><td colspan="2"><input type="password"  name="userpwd" required="required" style="width: 97%;"oninput="check()" onchange="check()"></td>
+					</tr>
+					<tr>
+						<td>确认密码：</td><td colspan="2"><input type="password" name="userpwdagain" style="width: 97%;" required="required" oninput="check()" onchange="check()"></td>
+					</tr>
+					<tr>
+						<td style="word-spacing:27px;">性    别：</td><td colspan="3"><input type="radio" name="sex" value="male" required="required" oninput="check()" onchange="check()">男<input type="radio" name="sex" value="female" required="required" oninput="check()" onchange="check()">女</td>
+					</tr>
+					<tr>
+						<td colspan="4" class="table1">通信信息</td>
+					</tr>
+					<tr>
+						<td>手机号码:</td><td colspan="1.5"><input type="text" name="telephonenumber" style="width: 96%;" required="required" oninput="check()" onchange="check()"></td><td>电子邮箱:</td><td colspan="1.5"><input type="text" id="email" style="width: 95%;"></td>
+					</tr>
+					<tr>
+						<td>居住地址</td><td colspan="3"><input type="text" name="address" style="width: 98%;" required="required" oninput="check()" onchange="check()"></td>
+					</tr>
+					<tr>
+						<td colspan="4" class="table1">额外信息</td>
+					</tr>
+					<tr>
+						<td style="word-spacing:27px;">爱   好:</td>
+						<td colspan="3">
+					<input type="checkbox" name="like1"  oninput="check()" onchange="check()" > 篮球
+					<input type="checkbox" name="like2"  oninput="check()" onchange="check()"> 足球
+					<input type="checkbox" name="like3"  oninput="check()" onchange="check()"> 乒乓球
+						</td>
+					</tr>
+					<tr>
+						<td>头像上传</td><td colspan="3"><input type="file"></td>
+					</tr>
+					<tr>
+						<td>个人简介</td>
+						<td colspan="3"><textarea rows="10" cols="30" style="width: 98%;">
+						</textarea></td>
+					</tr>
+				</table>
+				<div class="button">
+					<input type="submit" class="button1"  value="立即注册" name="submit1" disabled="true">
+					<input type="reset" class="button2"></button>
+				</div>
+			</form>
+			<script >
+				function check(){
+					document.getElementsByName("submit1")[0].disabled=false;
+					if(document.forms[0].userName.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].userrealName.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].userpwd.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].userpwdagain.value=="")
+							document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].sex.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].telephonenumber.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].email.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+					if(document.forms[0].address.value=="")
+						document.getElementsByName("submit1")[0].disabled=true;
+				}
+			</script>
+	</body>
+</html>

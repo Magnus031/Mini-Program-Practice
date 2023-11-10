@@ -1,0 +1,93 @@
+.card1{
+		width: 400px;
+	    height: 230px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: -230px;
+	    margin-left: -400px;
+	    background: #f2e9ba;
+	    overflow: hidden;
+	    border-radius: 10px;
+}
+.card1 p{
+		text-align: center;
+		margin-top: 50px;
+		font-size: 70px;
+		font-weight: bold;
+		margin-left: -20px;
+		transform:rotate(-8deg); 
+}
+.card1 img{
+		position: absolute;
+		z-index: 1;
+		left: 10px;
+		width: 15%;
+		top: 167px;
+}
+.t1{
+	  position: absolute;
+	  border-left: 200px solid transparent;
+	  border-right: 0px solid transparent;
+	  border-bottom: 500px solid #acbef5; /* 更改颜色为所需的颜色 */
+	  top: -130px; /* 距离顶部的距离 */
+	  left: 200px; /* 距离左侧的距离 */
+	  z-index: 1; 
+}
+.card2{
+		width: 400px;
+		height: 230px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: 50px;
+		margin-left: -400px;
+		background: #f2e9ba;
+		overflow: hidden;
+		border-radius: 10px;
+}
+.img1 img{
+		position: absolute;
+		z-index: 1;
+		left: 10px;
+		width: 15%;
+		top: 167px;
+}
+.img1 p{
+	font-weight: bold;
+	font-size: 65px;
+	margin-left: 70px;
+	margin-top: 50px;
+	
+}
+.card2 .r1{
+	  position: absolute;
+	  width: 30px;
+	  height: 30px;
+	  border: 2px solid black;
+	  top: 160px;
+	  left: 320px;
+}
+.img2 img{
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+	width: 10%;
+	left:300px;
+	top: 170px;
+}
+.img2 p{
+	position: absolute;
+	left: 180px;
+	top: 164px;
+	font-weight: bold;
+}
+.sn p{
+	position: absolute;
+	left: 15px;
+	font-weight:bold;
+	border-style:solid;
+	border-color: coral;
+	color: orange;
+	
+}
