@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	font-size: 20px;
+}
+.logo{
+	width:100%;
+	text-align: center;
+	background-color: #f9fad2;
+}
+.logo h4{
+	cursor: pointer;
+	font-size: 30px;
+	letter-spacing: 2px;
+	
+}
+.logo h4:hover{
+	color:#00d5cb;
+}
+.logo p{
+	letter-spacing: 2px;
+}
+.navigationbar{
+	width: 100%;
+	height:60px;
+	line-height: 60px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.navigationbar ul{
+	display:flex;
+	justify-content: space-between;
+}
+.navigationbar ul li{
+	list-style: none;
+	font-size: 20px;
+	margin: 0 20px;
+}
+.navigationbar ul li a{
+	cursor: pointer;
+	color: #333;
+	text-decoration:none;
+	<!--下划线-->
+}
+.navigationbar ul li a:hover{
+	color: #00d5cb;
+}
+.banner{
+	width:100%;
+	height: 1200px;
+	text-align: left;
+}
+.banner img{
+	margin-top: .5px;
+	float: left; 
+	width: 50%;
+	height: 40%;
+}
+.desc_info p{
+	font-size: 15px;
+	font-style: oblique;
+	float: right;
+	width: 50%;
+}
+.desc_imag img{
+	width: 50%;
+	height: 300px;
+	float: right;
+}
+.text{
+	margin-top: 5px;
+	width: 700px;
+	height: 50px;
+	margin-left: 350px;
+}
+.submit{
+	width: 100px;
+	height: 50px;
+}
+.footer{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	background-color: skyblue;
+	top: 850px;
+}
+.footer p{
+	margin-left: 10px;
+	position: relative;
+	color: grey;
+	top: 10px;
+}
+.link{
+	float: right;
+}
+.link ul {
+	display: flex;
+	list-style-type:none;
+	justify-content: space-between;
+	padding: 0;
+	margin-top: 10px;
+}
+.link ul li{
+	font-size: 15px;
+	margin: 0 8px;
+}
+.link ul li a{
+	text-decoration: none;
+	color: grey;
+	cursor: pointer;
+}

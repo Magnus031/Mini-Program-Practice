@@ -1,0 +1,290 @@
+*{
+	margin: 0 auto;
+}
+.header{
+	height: 150px;
+	width: 960px;
+	background-color: #f9fad2;
+	border-bottom: dashed 1px black;
+}
+.logo_title {
+	float: left;
+}
+.logo_title h3{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.logo_title p{
+	position: absolute;
+	top: 110px;
+	margin-left: 20px;
+}
+.navi{
+	float: right;
+}
+.navi ul li{
+	display: inline;
+	
+}
+.navi a{
+	text-decoration: none;
+	color: #9d9a8b;
+	cursor: pointer;
+}
+.l1{
+	position: absolute;
+	left: 970px;
+	top: 105px;
+	border: 1px solid #9d9a8b;
+	border-radius: 6px;
+	padding: 4px 8px;
+}
+.l2{
+	position: absolute;
+	left: 1040px;
+	top: 105px;
+	border: 1px solid #9d9a8b;
+	border-radius: 6px;
+	padding: 4px 8px;
+}
+.l3{
+	position: absolute;
+	left: 1130px;
+	top: 105px;
+	border: 1px solid #9d9a8b;;
+	border-radius: 6px;
+	padding: 4px 8px;
+}
+.wraper{
+	margin-top: 10px;
+	height: 575px;
+	width: 960px;
+	background-color: #f5f5f5;
+	border-bottom: dashed 1px black;
+}
+.main{
+	float: left;
+	width: 610px;
+}
+.sidebar{
+	float: right;
+	width: 300px;
+}
+.item1{
+	border-bottom:dashed 1px #999 ;
+	padding: 30px;
+}
+.item1_img{
+	float: left;
+	margin-top: 4px;
+}
+.item1_img img{
+	width: 80px;
+	height: 80px;
+}
+.item1_content{
+	margin-left: 100px;
+	color: #a3653c;
+	font-size: 25px;
+}
+.item1_info{
+	color: #9d9a8b;
+	font-size: 10px;
+	font-style: italic;
+}
+.item1_desc{
+	color: #b5b5b7;
+	background-color: #f7f7f7;
+	border-left: 4px solid #ccc;
+	padding: 4px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.item2{
+	border-bottom:dashed 1px #999 ;
+	padding: 30px;
+}
+.item2_img{
+	float: left;
+	margin-top: 4px;
+}
+.item2_img img{
+	width: 80px;
+	height: 80px;
+}
+.item2_content{
+	margin-left: 100px;
+	color: #a3653c;
+	font-size: 25px;
+}
+.item2_info{
+	color: #9d9a8b;
+	font-size: 10px;
+	font-style: italic;
+}
+.item2_desc{
+	color: #b5b5b7;
+	background-color: #f7f7f7;
+	border-left: 4px solid #ccc;
+	padding: 4px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.item3{
+	border-bottom:dashed 1px #999 ;
+	padding: 30px;
+}
+.item3_img{
+	float: left;
+	margin-top: 4px;
+}
+.item3_img img{
+	width: 80px;
+	height: 80px;
+}
+.item3_content{
+	margin-left: 100px;
+	color: #a3653c;
+	font-size: 25px;
+}
+.item3_info{
+	color: #9d9a8b;
+	font-size: 10px;
+	font-style: italic;
+}
+.item3_desc{
+	color: #b5b5b7;
+	background-color: #f7f7f7;
+	border-left: 4px solid #ccc;
+	padding: 4px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.item4{
+	border-bottom:dashed 1px #999 ;
+	padding: 30px;
+}
+.item4_img{
+	float: left;
+	margin-top: 4px;
+}
+.item4_img img{
+	margin-left: -5px;
+	width: 100px;
+	height:80px;
+}
+.item4_content{
+	margin-left: 100px;
+	color: #a3653c;
+	font-size: 25px;
+}
+.item4_info{
+	color: #9d9a8b;
+	font-size: 10px;
+	font-style: italic;
+}
+.item4_desc{
+	color: #b5b5b7;
+	background-color: #f7f7f7;
+	border-left: 4px solid #ccc;
+	padding: 4px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.author_img{
+	position: absolute;
+	float: right;
+	margin-top: 8px;
+	left: 1030px;
+	border-bottom: dashed 1px #999;
+}
+.author_img img{
+	height: 120px;
+	width: 120px;
+}
+.author_info{
+	  position: relative;
+	  top: 140px;
+	  border: 1px solid grey;
+	  border-radius: 25px;
+	  width: 200px;
+	  margin-top: 10px;
+}
+.author_info h4{
+	position: relative;
+	text-align: center;
+}
+.author_info p{
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.article{
+	margin-top: 150px;
+}
+.article h3{
+	text-align: left;
+	border-bottom: dashed grey;
+	font-style: italic;
+}
+.article ul li{
+	text-align: left;
+	list-style-type:none;
+}
+.id1{
+	margin-top: 15px;
+}
+.id6{
+	margin-bottom:20px ;
+}
+.site_info{
+	border-top: dashed grey;
+	color: grey;
+}
+.id7{
+	margin-top: 10px;
+	text-align: center;
+}
+.id8{
+	margin-top: 10px;
+	text-align: center;
+}
+.footer{
+	margin-top: 10px;
+	height: 100px;
+	width: 960px;
+	background-color: #87ceea;
+	border-bottom: dashed 1px black;
+}
+.desc{
+	float: left;
+}
+.desc p{
+	margin-left: 10px;
+	position: relative;
+	color: grey;
+	top: 10px;
+}
+.link{
+	float: right;
+}
+.link ul {
+	display: flex;
+	list-style-type:none;
+	justify-content: space-between;
+	padding: 0;
+	margin-top: 10px;
+}
+.link ul li{
+	font-size: 15px;
+	margin: 0 8px;
+}
+.link ul li a{
+	text-decoration: none;
+	color: grey;
+	cursor: pointer;
+}
