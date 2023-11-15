@@ -1,0 +1,16 @@
+.Title h1{
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+	top: 150px;
+	z-index: 1;
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.retangle{
+	position: relative;
+	width: 400px;
+	height: 150px;
+	border: 2px solid;
+	left: 540px;
+	background-color: antiquewhite;
+}
