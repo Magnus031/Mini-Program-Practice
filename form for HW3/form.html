@@ -5,7 +5,8 @@
 		<title>Html Form</title>
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
 	</head>
-	<body>
+	<body>	
+			<script src="js/form.js"></script>
 			<a href="https://www.zju.edu.cn/"><caption><h3>注册信息</h3></caption></a>
 			<form name="input" action="www.baidu.com" onsubmit="return check()" method="get" >
 				<table width="600" align="center" border="1">
@@ -58,27 +59,9 @@
 					<input type="submit" class="button1"  value="立即注册" name="submit1" disabled="true">
 					<input type="reset" class="button2"></button>
 				</div>
+				<div align="center" class="alert">
+				        <text class="alert_text"></text>
+				</div>
 			</form>
-			<script >
-				function check(){
-					document.getElementsByName("submit1")[0].disabled=false;
-					if(document.forms[0].userName.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].userrealName.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].userpwd.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].userpwdagain.value=="")
-							document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].sex.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].telephonenumber.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].email.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-					if(document.forms[0].address.value=="")
-						document.getElementsByName("submit1")[0].disabled=true;
-				}
-			</script>
 	</body>
 </html>
