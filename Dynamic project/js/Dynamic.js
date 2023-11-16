@@ -3,19 +3,16 @@ const zju = document.getElementById('zju');
 const w_width = window.screen.availWidth;
 const w_height = window.screen.availHeight;
 
-//初始位置
-let width = 200;
-let height = 200;
-//图片移动速度
-let vx = 30;
-let vy = 30;
-//改变图片位置
-function movePos(){
-	width = (width + vx)%(w_width-300);
-	height = (height+vy)%(w_height-300);
-	zju.style.left = width + 'px';
-	zju.style.top = height + 'px';
+
+function move(){
+	zju.style.top=Math.random()*w_height*0.5+'px';
+	zju.style.left=Math.random()*w_width*0.5+'px';
 }
+var timer = setInterval(move,100);
 
-setInterval(movePos,1000);
-
+function off(){
+	clearInterval(timer);
+}
+function on(){
+	timer = setInterval(move,100);
+}
