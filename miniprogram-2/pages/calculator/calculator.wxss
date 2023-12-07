@@ -1,0 +1,52 @@
+/* pages/calculator/calculator.wxss */
+.btnGroup1{
+  display: flex;
+  flex-direction: row;
+}
+.btnGroup1 button{
+  max-width: 190rpx;
+  min-height: 160rpx;
+  border-radius: 5px;
+  margin: 2rpx;
+  line-height: 150rpx;  
+}
+.btnGroup2{
+  display: flex;
+  flex-direction: row;
+}
+.btnGroup2 button{
+  max-width: 190rpx;
+  min-height: 160rpx;
+  border-radius: 5px;
+  margin: 2rpx;
+  line-height: 150rpx; 
+}
+.btnGroup3{
+  display: flex;
+  flex-direction: row;
+}
+.btnGroup3 button{
+  max-width: 190rpx;
+  min-height: 160rpx;
+  border-radius: 5px;
+  margin: 2rpx;
+  line-height: 150rpx; 
+}
+.btnGroup4{
+  display: flex;
+  flex-direction: row;
+}
+.btnGroup4 button{
+  max-width: 190rpx;
+  min-height: 160rpx;
+  border-radius: 5px;
+  margin: 2rpx;
+  line-height: 150rpx; 
+}
+.btnHover{
+  background-color: indianred; opacity: 0.7;
+}
+.bottom{
+   position : fixed;
+   bottom : 0;
+}

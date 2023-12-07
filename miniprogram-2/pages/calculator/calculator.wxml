@@ -1,0 +1,33 @@
+<!--pages/calculator/calculator.wxml-->
+
+<view>
+<input class="calResult" placeholder="计算结果" value = "{{result}}" style="text-align: right"></input>
+</view>
+
+<view class="bottom">
+  <view class="btnGroup3">
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="7">7</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);"bindtap = "addNum" data-num ="8">8</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);"bindtap = "addNum" data-num ="9">9</button>
+<button hover-class="btnHover" style="background-color: rgb(251, 255, 0);" bindtap= "multiply" data-num="*">*</button>
+</view>
+<view class="btnGroup2">
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="4">4</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);"bindtap = "addNum" data-num ="5">5</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="6">6</button>
+<button hover-class="btnHover" style="background-color: rgb(251, 255, 0);" bindtap = "divide" data-num="/">/</button>
+</view>
+<view class="btnGroup1">
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="1">1</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="2">2</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="3">3</button>
+<button hover-class="btnHover" style="background-color: rgb(251, 255, 0);" bindtap ="adder" data-num="+">+</button>
+</view>
+<view class="btnGroup4">
+<button hover-class="btnHover" style="background-color: rgb(40, 189, 40);" bindtap="clear">C</button>
+<button hover-class="btnHover" style="background-color: rgb(0, 225, 255);" bindtap = "addNum" data-num ="0">0</button>
+<button hover-class="btnHover" style="background-color: rgb(251, 255, 0);" bindtap="sub" data-num="-">-</button>
+<button hover-class="btnHover" style="background-color: rgb(251, 255, 0);" bindtap="Result" data-num="=">=</button>
+</view>
+</view>
+
