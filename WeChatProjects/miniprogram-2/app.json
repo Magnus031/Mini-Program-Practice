@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calculator/calculator"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Student Tools",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {"color": "#7A7E83",
+  "selectedColor": "#3cc51f",
+  "borderStyle":"black",
+  "list": [{
+    "pagePath": "pages/index/index",
+    "iconPath": "resource/img/home.jpeg",
+    "selectedIconPath": "resource/img/home.jpeg",
+    "text": "首页"
+  },
+  {
+    "pagePath": "pages/calculator/calculator",
+    "iconPath": "resource/img/calculator.jpg",
+    "selectedIconPath": "resource/img/calculator.jpg",
+    "text": "计算器"
+  }]},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
